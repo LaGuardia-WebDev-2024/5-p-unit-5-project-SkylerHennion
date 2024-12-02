@@ -56,9 +56,7 @@ Select ONE Additional Feature to Add
       #thecompetitors{padding: 00px;}
       
       
-      ol {
-        text-align: center;
-      }
+     
 
       a:link {
         color: red;
@@ -88,6 +86,7 @@ Select ONE Additional Feature to Add
         border: solid rgba(0, 0, 0, 0) 15px;
         width: 40%;
         margin: auto;
+        text-align: center;
       }
 
       .img {
@@ -101,7 +100,7 @@ Select ONE Additional Feature to Add
       }
 
       h1 {
-        color: cornsilk;
+        color: blanchedalmond;
         font-variant: small-caps;
         font-family: title;
         font-size: 80px;
@@ -131,12 +130,12 @@ Select ONE Additional Feature to Add
       }
 
       .accent {
-        color: cornsilk;
+        color: blanchedalmond;
         font-variant: small-caps;
       }
 
       #banner {
-        color: cornsilk;
+        color: blanchedalmond;
         font-variant: small-caps;
         font-family: banner;
       }
@@ -191,6 +190,7 @@ Select ONE Additional Feature to Add
         text-align: left;
         font-size: 25px;
         font-family: tahoma;
+        color:blanchedalmond;
         border: solid black 3px;
       }
 
@@ -212,6 +212,7 @@ Select ONE Additional Feature to Add
         font-size: 25px;
         font-family: tahoma;
         font-weight: bolder;
+        border:solid 3px;
       }
 
       button:hover {
@@ -219,11 +220,31 @@ Select ONE Additional Feature to Add
         cursor: pointer;
         color: blanchedalmond;
       }
+      
+      input[type="radio"]{
+        appearance:none;
+        width: 8px;
+        height: 8px;
+        border-radius:100%;
+      background-color: black;
+        border: 2px solid blanchedalmond;
+      cursor: pointer;}
+      
+      
+      #pollimg{width: 275px; filter: invert(100%)}
+      
     </style>
   </head>
 
+  
+  
+  
+  
+  
+  
   <body>
-    <div class="all">
+    
+      
       <ul>
         <a href="#thecompetitors"
           ><li>The Competitors</li>
@@ -245,7 +266,10 @@ Select ONE Additional Feature to Add
           .....p
         </span>
       </h1>
-    </div>
+    
+  
+    
+    
     <div id="thecompetitors">
       <h2 >The Competitors</h2>
     
@@ -292,7 +316,7 @@ Select ONE Additional Feature to Add
       </ol>
       
 
-      <div class="all">
+      
         <h2 id="attributes">Attributes</h2>
 
         <table>
@@ -396,13 +420,14 @@ Select ONE Additional Feature to Add
 
         <h2 id="thefaceoff">The Faceoff</h2>
         <center>
-          <img
+          <img id = "pollimg"
               src="https://tinyurl.com/8jnnce7f"
-              style="width: 275px; filter: invert(100%)"
+              
             />
         </center>
         <p id="banner">(W_ho_ do_ yo_u_ th_ink_ w_i_ll_ w_i_n?)</p>
-      </div>
+      
     </center>
+      </div>
   </body>
 </html>
